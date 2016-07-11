@@ -1,0 +1,75 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: purple;
+    margin-left: 20px;
+}
+
+
+#header {
+ width: 80%;
+ height: 200px;
+ margin: 0 auto;
+ background: lime;
+}
+
+#content {
+ width: 80%;
+ height: 800px;
+ margin: 0 auto;
+ background: silver;
+}
+
+#foot {
+ width: 80%;
+ height: 50px;
+ margin: 0 auto;
+ text-align: center;
+
+border: 3px solid red;
+}
+
+
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.esquerda {
+    position: relative;
+    left: 0px;
+    width: 200px;
+    background-color: silver;
+	float:left;
+	height:800px;
+
+}
+
+.meio {
+    position: relative;
+    width: 600px;
+    background-color: #b0e0e6;
+	float:left;
+	height:800px;
+	
+}
+
+.direita {
+    position: relative;
+    float:left;
+    width: 180px;
+    background-color: yellow;
+	text-align: center;	
+	height:800px;
+}
+
+
+
+.clearfloat { /* essa classe pode ser colocada em um <br /> ou em um div vazio como o elemento final que segue o último div flutuado (no #contêiner) caso o rodapé seja removido ou retirado do contêiner. */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
